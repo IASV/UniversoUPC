@@ -1,0 +1,17 @@
+header nav ul li a:hover, header nav ul li a:focus:hover{
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 8px 0px gray;
+    background-color: #ABE85A;
+    color: #01631A;
+}
+
+header nav ul li a:focus{
+    transition-duration: 0.5s;
+    background-color: #669C3A;
+}
+
+header nav ul li:hover .dropdown-content{
+    display: block;
+}
+
+/* rgb(33, 112, 46); */

@@ -1,0 +1,79 @@
+@media screen and (max-width: 1690px){
+    #logoFooter{
+        transition-duration: 0.5s;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 730px){
+    #logo{
+        text-align: center;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    #logoFooter{
+        transition-duration: 0.5s;
+        padding: 3.5% 0.5%;
+    }
+
+    header nav ul{
+        margin: 20px 0px;
+        width: 100%;
+        height: auto;
+        clear: left;
+        text-align: center;
+    }
+
+    header nav ul li{
+        display: block;
+        width: 100%;
+    }
+
+    .spaceDropdown{
+        margin: 0px;
+        transition-duration: 0.5s;
+    }
+
+    .dropdown-content{
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width: 1365px){
+    #logo{
+        margin-top: 40px;
+        transition-duration: 0.5;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    #logo{
+        margin-top: 50px;
+        transition-duration: 0.5;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #logoFooter{
+        transition-duration: 0.5s;
+        margin-left: 5%;
+    }
+
+    #info{
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 555px){
+    #logoFooter{
+        transition-duration: 0.5s;
+        margin-left: 5%;
+    }
+
+    #info{
+        margin-top: 20px;
+    }
+}
